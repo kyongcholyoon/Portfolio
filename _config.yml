@@ -1,0 +1,18 @@
+title: "Kyongchol Yoon — Engineering Log"
+description: "Building an all-in-one communication solution across mobile, Edge AI, accessibility, and real-time communication."
+url: "https://kyongcholyoon.github.io"
+baseurl: "/Portfolio"
+theme: minima
+markdown: kramdown
+timezone: Asia/Seoul
+
+author:
+  name: "Kyongchol Yoon"
+
+header_pages:
+  - ko/index.md
+  - ja/index.md
+  - en/index.md
+
+exclude:
+  - README.md
