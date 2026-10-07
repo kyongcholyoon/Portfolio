@@ -1,0 +1,69 @@
+---
+---
+
+@import "minima";
+
+.wrapper {
+  max-width: 920px;
+}
+
+.site-title {
+  font-weight: 700;
+}
+
+.language-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.language-card {
+  display: block;
+  padding: 1.25rem;
+  border: 1px solid #d8dee4;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  text-decoration: none;
+}
+
+.language-card span {
+  font-size: .9rem;
+  opacity: .75;
+}
+
+.lang-switcher {
+  margin: 0 0 1.5rem 0;
+  padding: .75rem 1rem;
+  border-radius: 10px;
+  background: rgba(127,127,127,.08);
+}
+
+.lang-switcher a {
+  margin-right: .75rem;
+}
+
+.callout {
+  margin: 1.5rem 0;
+  padding: 1rem 1.1rem;
+  border-left: 4px solid currentColor;
+  background: rgba(127,127,127,.08);
+  border-radius: 8px;
+}
+
+.architecture-evolution {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: rgba(127,127,127,.07);
+  border-radius: 12px;
+}
+
+.post-content h2 {
+  margin-top: 2.4rem;
+}
